@@ -1,0 +1,13 @@
+{
+  "batch_size": 256,
+  "epochs": 30,
+  "bootstrap_epochs": 5,
+  "bootstrap_probe_samples": 1024,
+  "eval_batch_size": 64,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.001,
+  "scheduler_step": 5,
+  "scheduler_gamma": 0.9,
+  "clip_grad_norm": 1.0,
+  "compile_pool": true
+}
